@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF04F5792A0207250031442C /* TicTacToeMoveCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04F5782A0207250031442C /* TicTacToeMoveCalculatorApp.swift */; };
+		BF04F57B2A0207250031442C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04F57A2A0207250031442C /* ContentView.swift */; };
+		BF04F57D2A0207250031442C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF04F57C2A0207250031442C /* Assets.xcassets */; };
+		BF04F5802A0207250031442C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF04F57F2A0207250031442C /* Preview Assets.xcassets */; };
+		BFF51DEE2A088B3E00E04600 /* CalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF51DED2A088B3E00E04600 /* CalculationView.swift */; };
+		BFF51DF12A088DA300E04600 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF51DF02A088DA300E04600 /* Constants.swift */; };
+		BFF51DF32A0A2C2F00E04600 /* MovesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF51DF22A0A2C2F00E04600 /* MovesListView.swift */; };
+		BFF51DF62A0A6A3900E04600 /* MoveCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF51DF52A0A6A3900E04600 /* MoveCardView.swift */; };
+		BFF51DF82A0B327100E04600 /* CircleLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF51DF72A0B327100E04600 /* CircleLoadingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF04F5752A0207250031442C /* TicTacToeMoveCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToeMoveCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF04F5782A0207250031442C /* TicTacToeMoveCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeMoveCalculatorApp.swift; sourceTree = "<group>"; };
+		BF04F57A2A0207250031442C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF04F57C2A0207250031442C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF04F57F2A0207250031442C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFF51DED2A088B3E00E04600 /* CalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationView.swift; sourceTree = "<group>"; };
+		BFF51DF02A088DA300E04600 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BFF51DF22A0A2C2F00E04600 /* MovesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesListView.swift; sourceTree = "<group>"; };
+		BFF51DF52A0A6A3900E04600 /* MoveCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCardView.swift; sourceTree = "<group>"; };
+		BFF51DF72A0B327100E04600 /* CircleLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoadingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF04F5722A0207250031442C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF04F56C2A0207250031442C = {
+			isa = PBXGroup;
+			children = (
+				BF04F5772A0207250031442C /* TicTacToeMoveCalculator */,
+				BF04F5762A0207250031442C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF04F5762A0207250031442C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF04F5752A0207250031442C /* TicTacToeMoveCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF04F5772A0207250031442C /* TicTacToeMoveCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				BFF51DF42A0A6A0A00E04600 /* layout */,
+				BFF51DEF2A088D3900E04600 /* constants */,
+				BFF51DEC2A088B2500E04600 /* views */,
+				BF04F5782A0207250031442C /* TicTacToeMoveCalculatorApp.swift */,
+				BF04F57A2A0207250031442C /* ContentView.swift */,
+				BF04F57C2A0207250031442C /* Assets.xcassets */,
+				BF04F57E2A0207250031442C /* Preview Content */,
+			);
+			path = TicTacToeMoveCalculator;
+			sourceTree = "<group>";
+		};
+		BF04F57E2A0207250031442C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF04F57F2A0207250031442C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFF51DEC2A088B2500E04600 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BFF51DED2A088B3E00E04600 /* CalculationView.swift */,
+				BFF51DF22A0A2C2F00E04600 /* MovesListView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		BFF51DEF2A088D3900E04600 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				BFF51DF02A088DA300E04600 /* Constants.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		BFF51DF42A0A6A0A00E04600 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				BFF51DF52A0A6A3900E04600 /* MoveCardView.swift */,
+				BFF51DF72A0B327100E04600 /* CircleLoadingView.swift */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF04F5742A0207250031442C /* TicTacToeMoveCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF04F5832A0207250031442C /* Build configuration list for PBXNativeTarget "TicTacToeMoveCalculator" */;
+			buildPhases = (
+				BF04F5712A0207250031442C /* Sources */,
+				BF04F5722A0207250031442C /* Frameworks */,
+				BF04F5732A0207250031442C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTacToeMoveCalculator;
+			productName = TicTacToeMoveCalculator;
+			productReference = BF04F5752A0207250031442C /* TicTacToeMoveCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF04F56D2A0207250031442C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BF04F5742A0207250031442C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = BF04F5702A0207250031442C /* Build configuration list for PBXProject "TicTacToeMoveCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF04F56C2A0207250031442C;
+			productRefGroup = BF04F5762A0207250031442C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF04F5742A0207250031442C /* TicTacToeMoveCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF04F5732A0207250031442C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF04F5802A0207250031442C /* Preview Assets.xcassets in Resources */,
+				BF04F57D2A0207250031442C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF04F5712A0207250031442C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF04F57B2A0207250031442C /* ContentView.swift in Sources */,
+				BFF51DF32A0A2C2F00E04600 /* MovesListView.swift in Sources */,
+				BFF51DF82A0B327100E04600 /* CircleLoadingView.swift in Sources */,
+				BFF51DEE2A088B3E00E04600 /* CalculationView.swift in Sources */,
+				BF04F5792A0207250031442C /* TicTacToeMoveCalculatorApp.swift in Sources */,
+				BFF51DF12A088DA300E04600 /* Constants.swift in Sources */,
+				BFF51DF62A0A6A3900E04600 /* MoveCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF04F5812A0207250031442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF04F5822A0207250031442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF04F5842A0207250031442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TicTacToeMoveCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timothy.TicTacToeMoveCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF04F5852A0207250031442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TicTacToeMoveCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timothy.TicTacToeMoveCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF04F5702A0207250031442C /* Build configuration list for PBXProject "TicTacToeMoveCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF04F5812A0207250031442C /* Debug */,
+				BF04F5822A0207250031442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF04F5832A0207250031442C /* Build configuration list for PBXNativeTarget "TicTacToeMoveCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF04F5842A0207250031442C /* Debug */,
+				BF04F5852A0207250031442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF04F56D2A0207250031442C /* Project object */;
+}
